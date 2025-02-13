@@ -316,3 +316,16 @@ footer {
     font-size: 36px;
   }
 }
+.feature-item {
+  transition: font-weight 0.3s ease;
+}
+
+.feature-item:hover {
+  font-weight: bold;
+}
+.features-grid img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
