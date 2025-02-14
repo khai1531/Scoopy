@@ -325,6 +325,7 @@ footer {
 }
 .features-grid img {
   max-width: 100%;
+  grid-template-columns: repeat(3, 1fr);
   height: auto;
   border-radius: 5px;
   margin-bottom: 5px;
