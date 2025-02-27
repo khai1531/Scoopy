@@ -330,3 +330,42 @@ footer {
   border-radius: 5px;
   margin-bottom: 5px;
 }
+
+button {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+/* Hiệu ứng ảnh với hiệu ứng zoom nhẹ và đổ bóng */
+img {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 12px;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+/* Hiệu ứng cuộn mượt mà */
+html {
+  scroll-behavior: smooth;
+}
